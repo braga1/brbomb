@@ -17,6 +17,7 @@
 | Memcached            | IP:PORT    | A memcached distributed denial-of-service (DDoS) attack is a type of cyber attack in which an attacker attempts to overload a targeted victim with internet traffic. The attacker spoofs requests to a vulnerable UDP memcached* server, which then floods a targeted victim with internet traffic, potentially overwhelming the victim’s resources. While the target’s internet infrastructure is overloaded, new requests cannot be processed and regular traffic is unable to access the internet resource, resulting in denial-of-service. |
 
 # :bomb: Installation:
+windous::
 download all files
 open brbomber
 
@@ -24,18 +25,18 @@ open brbomber
   * `sudo apt update`
   * `sudo apt install python3 python3-pip git -y`
   * `git clone https://github.com/braga1/brbomb`
-  * `cd Impulse/`
+  * `cd brBomber/`
   * `pip3 install -r requirements.txt`
-  * `python3 impulse.py --help`
+  * `python3 brbomber.py --help`
 
 * Termux:
   * `pkg update`
   * `pkg install python3 python3-pip git -y`
   * `git clone https://github.com/braga1/brbomb`
-  * `cd Impulse/`
+  * `cd brBomber/`
   * `pip3 install -r requirements.txt`
-  * `python3 impulse.py --help`
+  * `python3 brbomber.py --help`
 
 # :phone: Example SMS & Call flood:
-```python3 impulse.py --method SMS --time 20 --threads 15 --target +380123456789 (+7)```
+```python3 brbomber.py --method SMS --time 20 --threads 15 --target +380123456789 (+7)```
 
