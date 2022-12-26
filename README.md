@@ -25,7 +25,7 @@ open brbomber
   * `sudo apt update`
   * `sudo apt install python3 python3-pip git -y`
   * `git clone https://github.com/braga1/brbomb`
-  * `cd brBomber/`
+  * `cd brbomb/`
   * `pip3 install -r requirements.txt`
   * `python3 brbomber.py --help`
 
@@ -33,7 +33,7 @@ open brbomber
   * `pkg update`
   * `pkg install python3 python3-pip git -y`
   * `git clone https://github.com/braga1/brbomb`
-  * `cd brBomber/`
+  * `cd brbomb/`
   * `pip3 install -r requirements.txt`
   * `python3 brbomber.py --help`
 
